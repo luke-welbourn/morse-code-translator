@@ -1,5 +1,7 @@
 {
   "name": "morse-code-translator",
+  "homepage": "https://luke-welbourn.github.io/morse-code-translator",
+  "author": "Luke Welbourn",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,10 +9,12 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test:jest": "vitest"
+    "test:jest": "vitest",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@types/jest": "^29.5.3",
+    "gh-pages": "^5.0.0",
     "jest": "^29.6.2",
     "ts-jest": "^29.1.1",
     "typescript": "^5.0.2",

@@ -24,7 +24,7 @@ body {
 }
 
 .user-input {
-  height: 20vh;
+  height: 10vh;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -54,10 +54,35 @@ body {
   border: 2px solid black;
   font-size: 1.5em;
   padding: 30px;
+  margin-top: 50px;
   font-weight: bold;
   letter-spacing: 0.2em;
   word-wrap: break-word;
   white-space: normal;
   background-color: white;
   border-radius: 5px;
+}
+
+.user-input2 {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  #input-text2 {
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 5px;
+  }
+
+  #submit-button2 {
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.75em;
+  }
 }
