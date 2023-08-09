@@ -32,18 +32,10 @@ body {
   gap: 25px;
   #input-text {
     height: 50px;
-    width: 200px;
+    width: 300px;
     border-radius: 5px;
     padding: 5px;
     margin-left: 5px;
-  }
-
-  #submit-button {
-    height: 50px;
-    width: 100px;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 0.75em;
   }
 }
 
@@ -70,19 +62,12 @@ body {
   justify-content: center;
   align-items: center;
   gap: 25px;
+
   #input-text2 {
     height: 50px;
-    width: 200px;
+    width: 300px;
     border-radius: 5px;
     padding: 5px;
     margin-left: 5px;
-  }
-
-  #submit-button2 {
-    height: 50px;
-    width: 100px;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 0.75em;
   }
 }
