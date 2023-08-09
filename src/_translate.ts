@@ -1,7 +1,8 @@
 export const translate = (textInputString: string) => {
   // takes string input defined in main ts
   let morseCodeArray: string[] = [];
-  const textInputArray = textInputString.split("");
+  const textInputStringLowerCase: string = textInputString.toLowerCase();
+  const textInputArray = textInputStringLowerCase.split("");
   // splits the string into an array
 
   const morseCodeMap: { [key: string]: string } = {
@@ -42,6 +43,8 @@ export const translate = (textInputString: string) => {
     7: "--...",
     8: "---..",
     9: "----.",
+    ".": ".-.-.-",
+    ",": "--..--",
   };
 
   morseCodeArray = textInputArray.map((character: string) => {
