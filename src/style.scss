@@ -16,16 +16,18 @@ body {
   justify-content: center;
   align-items: center;
   gap: 50px;
-}
-.user-input #input-text {
-  height: 50px;
-  width: 300px;
-  padding-left: 20px;
-  border-radius: 5px;
-}
-.user-input #submit-button {
-  height: 50px;
-  width: 200px;
+
+  #input-text {
+    height: 50px;
+    width: 300px;
+    padding-left: 20px;
+    border-radius: 5px;
+  }
+
+  #submit-button {
+    height: 50px;
+    width: 200px;
+  }
 }
 
 .answer {
@@ -38,4 +40,4 @@ body {
   font-weight: bold;
   letter-spacing: 0.2em;
   word-wrap: break-word;
-}/*# sourceMappingURL=style.css.map */
+}

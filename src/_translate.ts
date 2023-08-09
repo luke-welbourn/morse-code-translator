@@ -31,7 +31,7 @@ export const translate = (textInputString: string) => {
     x: "-..-",
     y: "-.--",
     z: "--..",
-    " ": " ",
+    " ": "/",
     0: "-----",
     1: ".----",
     2: "..---",
